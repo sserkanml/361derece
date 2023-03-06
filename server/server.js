@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { router as homeRoute } from "./routes/home.js";
-import { router as userRoute } from "./routes/user.js";
+
 
 const app = express();
 const port = 5000;
