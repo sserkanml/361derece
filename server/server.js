@@ -15,7 +15,7 @@ app.use("/js", express.static("../public/js/"));
 app.use("/upload", express.static("../public/upload/"));
 app.use("/", homeRoute);
 
-app.use("/api", userRoute);
+
 
 app.use(express.json({ limit: "30mb" }));
 app.use(express.urlencoded({ limit: "30mb", extended: true }));
